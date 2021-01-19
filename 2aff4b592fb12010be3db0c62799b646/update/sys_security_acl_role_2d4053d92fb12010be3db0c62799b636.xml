@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-18 15:33:00</sys_created_on>
+        <sys_id>2d4053d92fb12010be3db0c62799b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_570209_gestione_esami.x_570209_gestione.esami_user</sys_name>
+        <sys_package display_value="Gestione esami" source="x_570209_gestione">2aff4b592fb12010be3db0c62799b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestione esami">2aff4b592fb12010be3db0c62799b646</sys_scope>
+        <sys_security_acl display_value="x_570209_gestione_esami">e54053d92fb12010be3db0c62799b627</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2d4053d92fb12010be3db0c62799b636</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-18 15:33:00</sys_updated_on>
+        <sys_user_role display_value="x_570209_gestione.esami_user" name="x_570209_gestione.esami_user">99409b592fb12010be3db0c62799b6bd</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

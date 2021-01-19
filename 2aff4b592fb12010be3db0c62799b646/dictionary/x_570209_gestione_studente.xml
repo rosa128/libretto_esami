@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Studente" max_length="40" name="x_570209_gestione_studente" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Anno di corso" mandatory="true" max_length="40" name="u_anno_di_corso" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1 anno" sequence="0" value="1anno"/>
+                <element inactive_on_update="false" label="2 anno" sequence="1" value="2anno"/>
+                <element inactive_on_update="false" label="3 anno" sequence="2" value="3anno"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Nome e cognome" mandatory="true" max_length="40" name="u_come_cognome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Corso di studi" mandatory="true" max_length="40" name="u_corso_di_studi" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Ingegneria Biomedica" sequence="0" value="ingegneriabiomedica"/>
+                <element inactive_on_update="false" label="Ingegneria Elettronica" sequence="1" value="ingegneriaelettronica"/>
+                <element inactive_on_update="false" label="Ingegneria Informatica" sequence="2" value="ingegneriainformatica"/>
+                <element inactive_on_update="false" label="Ingegneria Gestionale" sequence="3" value="ingegneriagestionale"/>
+                <element inactive_on_update="false" label="Ingegneria Elettrica" sequence="4" value="ingegneriaelettrica"/>
+                <element inactive_on_update="false" label="Ingegneria Meccanica" sequence="5" value="ingegneriameccanica"/>
+            </choice>
+        </element>
+        <element label="Numero di matricola" mandatory="true" max_length="40" name="u_numero_di_matricola" type="float"/>
+    </element>
+</database>

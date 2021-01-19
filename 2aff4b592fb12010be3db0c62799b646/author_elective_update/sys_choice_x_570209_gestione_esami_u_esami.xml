@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_esami" table="x_570209_gestione_esami" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_esami</element>
+            <name>x_570209_gestione_esami</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 15:42:55</sys_created_on>
+            <sys_id>f6829f1d2fb12010be3db0c62799b630</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_esami</sys_name>
+            <sys_package display_value="Gestione esami" source="x_570209_gestione">2aff4b592fb12010be3db0c62799b646</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestione esami">2aff4b592fb12010be3db0c62799b646</sys_scope>
+            <sys_update_name>sys_choice_x_570209_gestione_esami_u_esami</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 15:42:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_esami</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>elettronica</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 15:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be829f1d2fb12010be3db0c62799b62f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 15:42:55</sys_updated_on>
+            <value>elettronica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_esami</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>meccanica</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 15:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36829f1d2fb12010be3db0c62799b632</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 15:42:55</sys_updated_on>
+            <value>meccanica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_esami</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>informatica</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 15:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6829f1d2fb12010be3db0c62799b633</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 15:42:55</sys_updated_on>
+            <value>informatica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_esami</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>analisi 1</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 15:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a829f1d2fb12010be3db0c62799b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 15:42:55</sys_updated_on>
+            <value>analisi1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_esami</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>analisi 2</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 15:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba829f1d2fb12010be3db0c62799b635</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 15:42:55</sys_updated_on>
+            <value>analisi2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_esami</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>geometria</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 15:42:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e829f1d2fb12010be3db0c62799b636</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 15:42:56</sys_updated_on>
+            <value>geometria</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_esami</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>fisica 1</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 15:42:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be829f1d2fb12010be3db0c62799b637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 15:42:56</sys_updated_on>
+            <value>fisica1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_esami</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>fisica 2</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 15:42:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32829f1d2fb12010be3db0c62799b639</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 15:42:56</sys_updated_on>
+            <value>fisica2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

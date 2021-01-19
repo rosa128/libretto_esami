@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_570209_gestione_esami_prof</description>
+        <name>x_570209_gestione_esami_prof</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-19 08:37:13</sys_created_on>
+        <sys_id>f0ba72e52f312010be3db0c62799b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_570209_gestione_esami_prof</sys_name>
+        <sys_package display_value="Gestione esami" source="x_570209_gestione">2aff4b592fb12010be3db0c62799b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestione esami">2aff4b592fb12010be3db0c62799b646</sys_scope>
+        <sys_update_name>sys_security_acl_f0ba72e52f312010be3db0c62799b61c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 08:37:13</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestione esami">2aff4b592fb12010be3db0c62799b646</application>
+        <file_path/>
+        <instance_id>def13766db281bc07e55d5b0cf961981</instance_id>
+        <instance_name>dev51344</instance_name>
+        <name>sys_security_acl_f0ba72e52f312010be3db0c62799b61c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_570209_gestione_esami_prof</description><name>x_570209_gestione_esami_prof</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-19 08:37:13</sys_created_on><sys_id>f0ba72e52f312010be3db0c62799b61c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_570209_gestione_esami_prof</sys_name><sys_package display_value="Gestione esami" source="x_570209_gestione">2aff4b592fb12010be3db0c62799b646</sys_package><sys_policy/><sys_scope display_value="Gestione esami">2aff4b592fb12010be3db0c62799b646</sys_scope><sys_update_name>sys_security_acl_f0ba72e52f312010be3db0c62799b61c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-19 08:37:13</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1200994317</payload_hash>
+        <record_name>x_570209_gestione_esami_prof</record_name>
+        <reverted_from/>
+        <source>a2ff4b592fb12010be3db0c62799b648</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-19 08:37:14</sys_created_on>
+        <sys_id>b8ba72e52f312010be3db0c62799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17719ca72db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 08:37:14</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>f0ba72e5fb31201003a7ce3d278f501e</update_guid>
+        <update_guid_history>f0ba72e5fb31201003a7ce3d278f501e:1200994317</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-19 08:38:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0000a32bec6a438d8000841aa413cc01</sys_id>
+        <sys_metadata>f0ba72e52f312010be3db0c62799b61c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_570209_gestione_esami_prof</sys_name>
+        <sys_package display_value="Gestione esami" source="x_570209_gestione">2aff4b592fb12010be3db0c62799b646</sys_package>
+        <sys_parent display_value="">7cba72e52f312010be3db0c62799b627</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gestione esami">2aff4b592fb12010be3db0c62799b646</sys_scope>
+        <sys_scope_delete display_value="">42a76d5e620e45acabf13a8aeadcbaf9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_f0ba72e52f312010be3db0c62799b61c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_f0ba72e52f312010be3db0c62799b61c">b8ba72e52f312010be3db0c62799b61e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 08:38:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

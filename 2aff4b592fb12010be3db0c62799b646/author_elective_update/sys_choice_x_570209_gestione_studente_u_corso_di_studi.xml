@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_corso_di_studi" table="x_570209_gestione_studente" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_corso_di_studi</element>
+            <name>x_570209_gestione_studente</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 15:52:28</sys_created_on>
+            <sys_id>62b45b9d2fb12010be3db0c62799b626</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_corso_di_studi</sys_name>
+            <sys_package display_value="Gestione esami" source="x_570209_gestione">2aff4b592fb12010be3db0c62799b646</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestione esami">2aff4b592fb12010be3db0c62799b646</sys_scope>
+            <sys_update_name>sys_choice_x_570209_gestione_studente_u_corso_di_studi</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 15:52:28</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_corso_di_studi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ingegneria Biomedica</label>
+            <language>en</language>
+            <name>x_570209_gestione_studente</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 16:20:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>252b9f912ff12010be3db0c62799b637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 16:20:31</sys_updated_on>
+            <value>ingegneriabiomedica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_corso_di_studi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ingegneria Elettronica</label>
+            <language>en</language>
+            <name>x_570209_gestione_studente</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 16:20:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed2b9f912ff12010be3db0c62799b638</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 16:20:31</sys_updated_on>
+            <value>ingegneriaelettronica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_corso_di_studi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ingegneria Informatica</label>
+            <language>en</language>
+            <name>x_570209_gestione_studente</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 16:20:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>612b9f912ff12010be3db0c62799b63a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 16:20:31</sys_updated_on>
+            <value>ingegneriainformatica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_corso_di_studi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ingegneria Gestionale</label>
+            <language>en</language>
+            <name>x_570209_gestione_studente</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 16:20:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e12b9f912ff12010be3db0c62799b63b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 16:20:31</sys_updated_on>
+            <value>ingegneriagestionale</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_corso_di_studi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ingegneria Elettrica</label>
+            <language>en</language>
+            <name>x_570209_gestione_studente</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 16:20:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>652b9f912ff12010be3db0c62799b63c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 16:20:31</sys_updated_on>
+            <value>ingegneriaelettrica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_corso_di_studi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ingegneria Meccanica</label>
+            <language>en</language>
+            <name>x_570209_gestione_studente</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 16:20:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e52b9f912ff12010be3db0c62799b63d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 16:20:31</sys_updated_on>
+            <value>ingegneriameccanica</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

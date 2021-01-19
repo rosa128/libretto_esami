@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_anno_di_corso" label="Anno di corso" language="en" table="x_570209_gestione_esami">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_anno_di_corso</element>
+            <help/>
+            <hint/>
+            <label>Anno di corso</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <plural>Anno di corsos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 16:13:20</sys_created_on>
+            <sys_id>d4895b512ff12010be3db0c62799b656</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Anno di corso</sys_name>
+            <sys_package display_value="Gestione esami" source="x_570209_gestione">2aff4b592fb12010be3db0c62799b646</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestione esami">2aff4b592fb12010be3db0c62799b646</sys_scope>
+            <sys_update_name>sys_documentation_x_570209_gestione_esami_u_anno_di_corso_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 16:13:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

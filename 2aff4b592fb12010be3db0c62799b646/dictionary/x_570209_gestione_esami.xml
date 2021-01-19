@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Esami_user" max_length="40" name="x_570209_gestione_esami" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Anno di corso" max_length="40" name="u_anno_di_corso" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1 Anno" sequence="0" value="1anno"/>
+                <element inactive_on_update="false" label="2 Anno" sequence="1" value="2anno"/>
+                <element inactive_on_update="false" label="3 Anno" sequence="2" value="3anno"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Corso di Studi" mandatory="true" max_length="40" name="u_corso_di_studi" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Ingegnaria Biomedica" sequence="0" value="ingegnariabiomedica"/>
+                <element inactive_on_update="false" label="Ingegneria Elettronica" sequence="1" value="ingegneriaelettronica"/>
+                <element inactive_on_update="false" label="Ingegneria Informatica" sequence="2" value="ingegneriainformatica"/>
+                <element inactive_on_update="false" label="Ingegneria Meccanica" sequence="3" value="ingegneriameccanica"/>
+                <element inactive_on_update="false" label="Ingegneria Gestionale" sequence="4" value="ingegneria gestionale"/>
+            </choice>
+        </element>
+        <element label="crediti" mandatory="true" max_length="40" name="u_crediti" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Data" mandatory="true" max_length="40" name="u_data" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Esami" mandatory="true" max_length="40" name="u_esami" type="string">
+            <choice>
+                <element inactive_on_update="false" label="elettronica" sequence="0" value="elettronica"/>
+                <element inactive_on_update="false" label="meccanica" sequence="1" value="meccanica"/>
+                <element inactive_on_update="false" label="informatica" sequence="2" value="informatica"/>
+                <element inactive_on_update="false" label="analisi 1" sequence="3" value="analisi1"/>
+                <element inactive_on_update="false" label="analisi 2" sequence="4" value="analisi2"/>
+                <element inactive_on_update="false" label="geometria" sequence="5" value="geometria"/>
+                <element inactive_on_update="false" label="fisica 1" sequence="6" value="fisica1"/>
+                <element inactive_on_update="false" label="fisica 2" sequence="7" value="fisica2"/>
+            </choice>
+        </element>
+        <element label="Numero di Matricola" mandatory="true" max_length="40" name="u_numero_di_matricola" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Professore" mandatory="true" max_length="40" name="u_professore" type="string"/>
+        <element attributes="encode_utf8=false" label="Esame di" mandatory="true" max_length="32" name="u_reference_1" reference="x_570209_gestione_studente" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stato" mandatory="true" max_length="40" name="u_stato" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Passato" sequence="0" value="passato"/>
+                <element inactive_on_update="false" label="Seguito" sequence="1" value="seguito"/>
+            </choice>
+        </element>
+        <element label="Voto" mandatory="true" max_length="40" name="u_voto" type="float"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

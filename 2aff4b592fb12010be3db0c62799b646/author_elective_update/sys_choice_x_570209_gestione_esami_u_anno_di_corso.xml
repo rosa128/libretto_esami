@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_anno_di_corso" table="x_570209_gestione_esami" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_anno_di_corso</element>
+            <name>x_570209_gestione_esami</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 16:13:21</sys_created_on>
+            <sys_id>10895b512ff12010be3db0c62799b683</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_anno_di_corso</sys_name>
+            <sys_package display_value="Gestione esami" source="x_570209_gestione">2aff4b592fb12010be3db0c62799b646</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestione esami">2aff4b592fb12010be3db0c62799b646</sys_scope>
+            <sys_update_name>sys_choice_x_570209_gestione_esami_u_anno_di_corso</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 16:13:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_anno_di_corso</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 Anno</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 16:13:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4895b512ff12010be3db0c62799b682</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 16:13:21</sys_updated_on>
+            <value>1anno</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_anno_di_corso</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 Anno</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 16:13:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50895b512ff12010be3db0c62799b684</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 16:13:21</sys_updated_on>
+            <value>2anno</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_anno_di_corso</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 Anno</label>
+            <language>en</language>
+            <name>x_570209_gestione_esami</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 16:13:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0895b512ff12010be3db0c62799b685</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 16:13:21</sys_updated_on>
+            <value>3anno</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

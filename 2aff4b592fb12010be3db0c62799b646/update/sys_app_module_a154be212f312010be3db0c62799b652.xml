@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Esami">954053d92fb12010be3db0c62799b613</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>nuovo esame</hint>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create new</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_570209_gestione_esami</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-19 08:11:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a154be212f312010be3db0c62799b652</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Create new_ professore</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestione esami" source="x_570209_gestione">2aff4b592fb12010be3db0c62799b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestione esami">2aff4b592fb12010be3db0c62799b646</sys_scope>
+        <sys_update_name>sys_app_module_a154be212f312010be3db0c62799b652</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 08:26:32</sys_updated_on>
+        <timeline_page/>
+        <title>Create new_ professore</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

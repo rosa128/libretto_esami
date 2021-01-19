@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Esami_prof</name>
+        <order/>
+        <roles>x_570209_gestione.esami_prof_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-19 08:37:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2cba72e52f312010be3db0c62799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Esami_prof</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestione esami" source="x_570209_gestione">2aff4b592fb12010be3db0c62799b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestione esami">2aff4b592fb12010be3db0c62799b646</sys_scope>
+        <sys_update_name>sys_ui_application_2cba72e52f312010be3db0c62799b608</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 08:37:13</sys_updated_on>
+    </sys_ui_application>
+</record_update>
